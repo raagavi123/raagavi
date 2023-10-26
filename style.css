@@ -1,0 +1,74 @@
+*body{
+    
+    font-family: Arial, sans-serif;
+    margin: 700;
+    padding: 100;
+    background-color: #3fff;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative; /* Add this */
+}
+ .header-content h1{
+    font-size: 2.5rem;
+ }
+ /* Add style for the round profile picture */
+ .profile-picture {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px;
+    border-radius: 75%; /* create a circular shape */
+    object-fit: cover; /* To ensure the image fills the needed */
+    position: absolute; /* Add this */
+    top: 50px; /* Adjust top position as needed */
+    left: 50px; /* Adjust left position as needed */
+
+ }
+
+ nav{
+    background-color: blue;
+    color: red;
+    text-align: center;
+ }
+ nav ul{
+    list-style-type: none;
+    padding: 10px;
+ }
+
+ nav ul li{
+    display: inline;
+    margin-top: 0 20px;
+ }
+
+nav ul li a {
+     text-decoration: none;
+     color: black;
+}
+
+.section-content{
+    background-color: lightpink;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center ;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+ul{
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
+
+ul{
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
